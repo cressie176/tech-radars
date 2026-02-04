@@ -1,0 +1,42 @@
+name,ring,quadrant,isNew,status,description
+Node.js v24,adopt,Core,FALSE,,Latest LTS version for production use
+Node.js v22,hold,Core,FALSE,,Previous LTS version. Migrate to v24
+TypeScript,adopt,Core,FALSE,,Static typing for JavaScript with strict mode configuration
+Bun,hold,Core,FALSE,,Alternative JavaScript runtime. Not recommended for production use
+Deno,hold,Core,FALSE,,Alternative JavaScript runtime. Not recommended for production use
+Hono,adopt,Libraries,FALSE,,Modern lightweight web framework with excellent TypeScript support
+Express,hold,Libraries,FALSE,,Legacy web framework. Use Hono for new projects
+Fastify,hold,Libraries,FALSE,,Web framework. Use Hono for new projects
+Zod,adopt,Libraries,FALSE,,Runtime type validation and schema definition
+Joi,hold,Libraries,FALSE,,Legacy validation library. Use Zod instead
+Yup,hold,Libraries,FALSE,,Legacy validation library. Use Zod instead
+Node Test Framework,adopt,Libraries,FALSE,,Built-in Node.js testing framework
+Jest,hold,Libraries,FALSE,,Legacy test runner. Use Node Test Framework instead
+Vitest,hold,Libraries,FALSE,,Test runner. Use Node Test Framework instead
+Haven Logger,adopt,Libraries,FALSE,,Structured logging library
+Pino,hold,Libraries,FALSE,,Legacy logging library. Use Haven Logger instead
+Drizzle,adopt,Libraries,FALSE,,TypeScript ORM with excellent type safety
+Prisma,hold,Libraries,FALSE,,ORM with code generation. Use Drizzle instead
+Sequelize,hold,Libraries,FALSE,,Legacy ORM. Use Drizzle instead
+TypeORM,hold,Libraries,FALSE,,Legacy ORM. Use Drizzle instead
+luxon,adopt,Libraries,FALSE,,Modern date and time library
+date-fns,hold,Libraries,FALSE,,Legacy date library. Use luxon instead
+Next.js 16,adopt,Libraries,FALSE,,Latest version of React meta-framework
+Next.js 15,hold,Libraries,FALSE,,Previous version. Upgrade to Next.js 16
+Node Assert,adopt,Libraries,FALSE,,Built-in Node.js assertion library for testing
+Biome,adopt,Tooling,FALSE,,Fast linter and formatter replacing ESLint and Prettier
+ESLint,hold,Tooling,FALSE,,Legacy linter. Migrate to Biome
+Prettier,hold,Tooling,FALSE,,Legacy formatter. Migrate to Biome
+npm,adopt,Tooling,FALSE,,Standard package manager for Node.js
+pnpm,trial,Tooling,FALSE,,Efficient package manager with disk space optimization
+yarn,hold,Tooling,FALSE,,Legacy package manager. Use npm or evaluate pnpm
+Zen,adopt,Tooling,FALSE,,Preferred code editor
+VSCode,hold,Tooling,FALSE,,Legacy editor. Use Zen instead
+Webstorm,hold,Tooling,FALSE,,Legacy IDE. Use Zen instead
+REST,adopt,Architecture,FALSE,,Standard approach for building HTTP APIs
+GraphQL,hold,Architecture,FALSE,,Not recommended for building APIs. Use REST instead. GraphQL consumption is acceptable
+RPC,hold,Architecture,FALSE,,Not recommended. Use REST for synchronous APIs
+Event Oriented Architecture,adopt,Architecture,FALSE,,Preferred pattern for asynchronous system integration
+WebSockets,trial,Architecture,FALSE,,Real-time bidirectional communication. Evaluate for specific use cases
+CQRS,trial,Architecture,FALSE,,Command Query Responsibility Segregation pattern. Evaluate for complex domains
+Event Sourcing,trial,Architecture,FALSE,,Store state changes as events. Evaluate for audit requirements and complex domains
